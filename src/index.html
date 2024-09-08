@@ -25,98 +25,540 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <!-- <link rel="stylesheet" href="./assets/build-styles.css"> -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./build-styles.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   </head>
   <style></style>
   <body>
-    <section id="header" class="bg-[url('./assets/images/header-bg-img.jpg')] bg-no-repeat bg-cover  bg-[#FFFFFF]"">
-      <div class="header container mx-auto px-[3%] py-4 sm:py-8 sm:px-[5%] flex gap-5 flex-col items-center">
+    <section
+      id="header"
+      class="bg-[url('./assets/images/header-bg-img.jpg')] bg-no-repeat bg-cover bg-[#FFFFFF]"
+    >
+      <div
+        class="header container mx-auto px-[3%] py-4 sm:py-8 sm:px-[5%] flex gap-5 flex-col justify-center items-center"
+      >
         <div class="header-top flex gap-2 flex-col items-center">
-          <h1 class="w-full max-w-full antialiased text-center uppercase font-['Kumbh_Sans'] text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#000000]">BRANDED NEW SOFTWARE LETS YOU RECORD, SCREEN CAPTURE & EDIT VIDEOS IN THE CLOUD WITHIN FEW MINUTES!</h1>
-          <h2 class="w-full max-w-[200px] sm:max-w-[400px] antialiased text-center uppercase text-[#000000] text-[8px] lg:text-xs font-['Kumbh_Sans'] font-medium">SAY GOODBYE! TO EXPENSIVE & COMPLEX VIDEO EDITORS HAVING TO PAY OTHERS FOR YOUR VIDEOS!</h2>
+          <h1
+            class="w-full max-w-full antialiased text-center uppercase font-['Kumbh_Sans'] text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#000000]"
+          >
+            BRANDED NEW SOFTWARE LETS YOU RECORD, SCREEN CAPTURE & EDIT VIDEOS
+            IN THE CLOUD WITHIN FEW MINUTES!
+          </h1>
+          <h2
+            class="w-full max-w-[200px] sm:max-w-[400px] antialiased text-center uppercase text-[#000000] text-[8px] lg:text-xs font-['Kumbh_Sans'] font-medium"
+          >
+            SAY GOODBYE! TO EXPENSIVE & COMPLEX VIDEO EDITORS HAVING TO PAY
+            OTHERS FOR YOUR VIDEOS!
+          </h2>
         </div>
 
-        <div class="w-full header-mid flex gap-6 flex-col md:flex-row items-center justify-center">
+        <div
+          class="w-full header-mid flex gap-6 flex-col md:flex-row items-center justify-center"
+        >
           <div class="w-full max-w-[700px] flex flex-col gap-2 items-center">
-            <iframe 
-              class="w-full h-full aspect-video bg-[url('./assets/images/header-video-bg-img-1.png')] bg-cover bg-no-repeat" 
-              src="https://www.youtube.com/embed/HWZUw_oLZnQ" 
-              title="Introducing the Roland AeroCaster Livestreaming System" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              referrerpolicy="strict-origin-when-cross-origin" 
-              allowfullscreen>
+            <iframe
+              class="w-full h-full aspect-video bg-[url('./assets/images/header-video-bg-img-1.png')] bg-cover bg-no-repeat"
+              src="https://www.youtube.com/embed/HWZUw_oLZnQ"
+              title="Introducing the Roland AeroCaster Livestreaming System"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
             </iframe>
 
-            <p class="capitalize  p-2 w-full max-w-[70%] [@media_(max-width:400px)]:max-w-[90%] font-[Inter] font-extrabold text-center text-xs border-2 border-dashed border-[#3682DB] antialiased">
-              First 100 Action-Takers <span class="font-normal">Will Get Instant Access To Our “$68,349.23 Case Study” For 100% Free</span> (worth $997).
-            </p>            
+            <p
+              class="capitalize p-2 w-full max-w-[70%] [@media_(max-width:400px)]:max-w-[90%] font-[Inter] font-extrabold text-center text-xs border-2 border-dashed border-[#3682DB] antialiased"
+            >
+              First 100 Action-Takers
+              <span class="font-normal"
+                >Will Get Instant Access To Our “$68,349.23 Case Study” For 100%
+                Free</span
+              >
+              (worth $997).
+            </p>
           </div>
           <ul class="flex flex-col gap-2 w-full md:max-w-[400px]">
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
             <li class="flex gap-2 items-start">
-              <span class="h-full w-full pt-1 max-w-4 max-h-4"><img class="w-auto h-auto max-h-full max-w-full" src="./assets/images/list-style-img.svg" alt=""></span>
-              <p class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <span class="h-full w-full pt-1 max-w-4 max-h-4"
+                ><img
+                  class="w-auto h-auto max-h-full max-w-full"
+                  src="./assets/images/list-style-img.svg"
+                  alt="list-icon"
+              /></span>
+              <p
+                class="font-['Kumbh_Sans'] text-left text-sm font-medium text-[#000000]"
+              >
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+              </p>
             </li>
           </ul>
         </div>
 
         <div class="header-bottom flex flex-col gap-[5px] items-center w-full">
-          <h1 class="text-[#000000] text-['Kumbh_Sans'] text-xs font-semibold text-center">Get Instant Access Now!!!</h1>
-          <h2 class="line-through text-[#000000] text-['Kumbh_Sans'] text-sm md:text-base font-semibold text-center">Regular Price: $17 </h2>
-          <div class="bg-[linear-gradient(90deg,_#EBC43A_13.46%,_#597EFF_100%)] w-full max-w-[400px] rounded-xl">
+          <h1
+            class="text-[#000000] text-['Kumbh_Sans'] text-xs font-semibold text-center"
+          >
+            Get Instant Access Now!!!
+          </h1>
+          <h2
+            class="line-through text-[#000000] text-['Kumbh_Sans'] text-sm md:text-base font-semibold text-center"
+          >
+            Regular Price: $17
+          </h2>
+          <div
+            class="bg-[linear-gradient(90deg,_#EBC43A_13.46%,_#597EFF_100%)] w-full max-w-[400px] rounded-xl"
+          >
             <div class="flex flex-col items-center gap-2 p-2 w-full">
               <span class="flex gap-1 items-center justify-center w-full">
-                <img class="w-auto max-w-6 h-auto max-h-6" src="./assets/images/cart-icon.svg" alt="cart-icon">
-                <p class="antialiased capitalize font-['Kumbh_Sans'] text-sm md:text-base font-black text-[#FFFFFF]">Buy Now</p>
+                <img
+                  class="w-auto max-w-6 h-auto max-h-6"
+                  src="./assets/images/cart-icon.svg"
+                  alt="cart-icon"
+                />
+                <p
+                  class="antialiased capitalize font-['Kumbh_Sans'] text-sm md:text-base font-black text-[#FFFFFF]"
+                >
+                  Buy Now
+                </p>
               </span>
-              <a href="./error404.html" class="underline antialiased capitalize font-['inter'] text-xs md:text-sm font-medium text-[#FFFFFF]">Get Started Before It Expires</a>
+              <a
+                href="./error404.html"
+                class="underline antialiased capitalize font-['inter'] text-xs md:text-sm font-medium text-[#FFFFFF]"
+                >Get Started Before It Expires</a
+              >
             </div>
           </div>
           <div class="flex gap-2 items-center justify-center h-full w-full">
             <span class="w-full max-w-[200px] h-full max-h-[46.71px]">
-              <img class="w-auto h-auto max-w-full max-h-full" src="./assets/images/pay-gateways.svg" alt="payment-gateways">
+              <img
+                class="w-auto h-auto max-w-full max-h-full"
+                src="./assets/images/pay-gateways.svg"
+                alt="payment-gateways"
+              />
             </span>
             <span class="w-full max-w-[45.66px] h-full max-h-[46.71px]">
-              <img class="w-auto h-auto max-w-full max-h-full" src="./assets/images/guaranteed.svg" alt="100%-guaranteed">
+              <img
+                class="w-auto h-auto max-w-full max-h-full"
+                src="./assets/images/guaranteed.svg"
+                alt="100%-guaranteed"
+              />
             </span>
             <span class="flex gap-1 items-center justify-center">
-              <p class="text-[#000000] antialiased font-black text-base md:text-xl font-['inter']">365</p>
-              <p class="capitalize antialiased leading-none text-[#000000] font-light text-center text-xs font-['Kumbh_Sans']">Money Back <br> Guaranteed</p>
+              <p
+                class="text-[#000000] antialiased font-black text-base md:text-xl font-['inter']"
+              >
+                365
+              </p>
+              <p
+                class="capitalize antialiased leading-none text-[#000000] font-light text-center text-xs font-['Kumbh_Sans']"
+              >
+                Money Back <br />
+                Guaranteed
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div
+          id="countdown-timer"
+          class="flex gap-8 justify-center items-center"
+        >
+          <div
+            id="days-hours-count"
+            class="flex gap-2 justify-center items-center"
+          >
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="days-left"
+                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalize font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Days
+              </p>
+            </span>
+
+            <p
+              class="capitalize font-['Inter'] font-semibold text-xl antialiased text-[#000000]"
+            >
+              :
+            </p>
+
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="hours-left"
+                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalizee font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Hours
+              </p>
+            </span>
+          </div>
+
+          <div
+            id="mins-secs-count"
+            class="flex gap-2 justify-center items-center"
+          >
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="mins-left"
+                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalize font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Mins
+              </p>
+            </span>
+
+            <p
+              class="capitalize font-['Inter'] font-semibold text-xl antialiased text-[#000000]"
+            >
+              :
+            </p>
+
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="secs-left"
+                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalize font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Secs
+              </p>
             </span>
           </div>
         </div>
       </div>
     </section>
 
+    <section id="hero">
+      <div
+        class="container mx-auto px-[3%] sm:px-[5%] py-4 sm:py-8 flex flex-col items-center"
+      >
+        <h2
+          class="uppercase antialiased text-center w-full max-w-[600px] font-['Kumbh_Sans'] font-bold text-[#6697CF] text-sm md:text-base lg:text-xl xl:text-2xl"
+        >
+          AUTOMATES HIGH TICKET SALES FOR YOURSELF & YOUR CLIENTS IN JUST
+          <span class="capitalize text-[#2D3954]">3 Steps</span>
+        </h2>
+
+        <div
+          class="step-container py-12 flex flex-col gap-12 relative [@media(max-width:350px)]:before:hidden before:content-[''] before:absolute before:top-[18%] before:right-[2.5%] before:bottom-[18%] before:w-[1px] before:bg-[#d1d5db] before:translate-x-1/2"
+        >
+          <div class="step flex justify-between items-center relative pr-[8%] [@media(max-width:350px)]:pr-0">
+            <div class="flex gap-8 justify-between items-center flex-col-reverse md:flex-row relative">
+              <div class="step-contentflex flex-col gap-2">
+                <h3
+                  class="text-[#465882] font-['Kumbh_Sans'] text-2xl font-bold text-left"
+                >
+                  STEP 1
+                </h3>
+                <p
+                  class="text-base text-[#000000] font-['Kumbh_Sans'] font-bold text-left"
+                >
+                  Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </p>
+                <p
+                  class="text-base text-[#000000] font-['Kumbh_Sans'] font-normal text-left"
+                >
+                  Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </p>
+              </div>
+              <div class="bg-black rounded-xl w-full max-w-[500px] h-full max-h-[300px] flex justify-center">
+                <img class="w-auto max-w-full h-auto max-h-[100%] rounded-xl" src="./assets/images/header-bg-img.jpg" alt="image">
+              </div>
+            </div>
+            <div
+              class="step-circle [@media(max-width:350px)]:hidden w-[5%] aspect-square rounded-full bg-[#ffffff] absolute right-0 justify-center items-center [box-shadow:0px_4px_18.1px_0px_#00000040] flex"
+            >
+              <p
+                class="text-[11px] sm:text-sm md:text-base lg:text-2xl text-[#3A8BEB] font-['Kumbh_Sans'] font-bold text-center"
+              >
+                1
+              </p>
+            </div>
+          </div>
+
+          <div class="step flex justify-between items-center relative pr-[8%] [@media(max-width:350px)]:pr-0">
+            <div class="flex gap-8 justify-between items-center flex-col-reverse md:flex-row relative">
+              <div class="step-content flex flex-col gap-2">
+                <h3
+                  class="text-[#465882] font-['Kumbh_Sans'] text-2xl font-bold text-left"
+                >
+                  STEP 2
+                </h3>
+                <p
+                  class="text-base text-[#000000] font-['Kumbh_Sans'] font-bold text-left"
+                >
+                  Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </p>
+                <p
+                  class="text-base text-[#000000] font-['Kumbh_Sans'] font-normal text-left"
+                >
+                  Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </p>
+              </div>
+              <div class="bg-black rounded-xl w-full max-w-[500px] h-full max-h-[300px] flex justify-center">
+                <img class="w-auto max-w-full h-auto max-h-[100%] rounded-xl" src="./assets/images/header-bg-img.jpg" alt="image">
+              </div>
+            </div>
+            <div
+              class="step-circle [@media(max-width:350px)]:hidden w-[5%] aspect-square rounded-full bg-[#ffffff] absolute right-0 justify-center items-center [box-shadow:0px_4px_18.1px_0px_#00000040] flex"
+            >
+              <p
+                class="text-[11px] sm:text-sm md:text-base lg:text-2xl text-[#3A8BEB] font-['Kumbh_Sans'] font-bold text-center"
+              >
+                2
+              </p>
+            </div>
+          </div>
+
+          <div class="step flex justify-between items-center relative pr-[8%] [@media(max-width:350px)]:pr-0">
+            <div class="flex gap-8 justify-between items-center flex-col-reverse md:flex-row relative">
+              <div class="step-content flex flex-col gap-2">
+                <h3
+                  class="text-[#465882] font-['Kumbh_Sans'] text-2xl font-bold text-left"
+                >
+                  STEP 3
+                </h3>
+                <p
+                  class="text-base text-[#000000] font-['Kumbh_Sans'] font-bold text-left"
+                >
+                  Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </p>
+                <p
+                  class="text-base text-[#000000] font-['Kumbh_Sans'] font-normal text-left"
+                >
+                  Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+                </p>
+              </div>
+              <div class="bg-black rounded-xl w-full max-w-[500px] h-full max-h-[300px] flex justify-center">
+                <img class="w-auto max-w-full h-auto max-h-[100%] rounded-xl" src="./assets/images/header-bg-img.jpg" alt="image">
+              </div>
+            </div>
+            <div
+              class="step-circle [@media(max-width:350px)]:hidden w-[5%] aspect-square rounded-full bg-[#ffffff] absolute right-0 justify-center items-center [box-shadow:0px_4px_18.1px_0px_#00000040] flex"
+            >
+              <p
+                class="text-[11px] sm:text-sm md:text-base lg:text-2xl text-[#3A8BEB] font-['Kumbh_Sans'] font-bold text-center"
+              >
+                3
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- <script src="./assets/index.js"></script> -->
+    <script>
+      const startTimer = async (duration, display) => {
+        let timer = duration;
+        const {
+          timerContainer,
+          daysLeft,
+          hoursLeft,
+          minutesLeft,
+          secondsLeft,
+        } = display;
+
+        const countdownInterval = setInterval(() => {
+          // Calculate days, hours, minutes, and seconds
+          const days = Math.floor(timer / (60 * 60 * 24));
+          const hours = Math.floor((timer % (60 * 60 * 24)) / (60 * 60));
+          const minutes = Math.floor((timer % (60 * 60)) / 60);
+          const seconds = timer % 60;
+
+          // Format each unit with leading zeros if necessary
+          const formattedDays = String(days).padStart(2, "0");
+          const formattedHours = String(hours).padStart(2, "0");
+          const formattedMinutes = String(minutes).padStart(2, "0");
+          const formattedSeconds = String(seconds).padStart(2, "0");
+
+          console.log(formattedHours);
+          // Update the display with the correct format
+          daysLeft.textContent = formattedDays;
+          hoursLeft.textContent = formattedHours;
+          minutesLeft.textContent = formattedMinutes;
+          secondsLeft.textContent = formattedSeconds;
+
+          // Store the remaining time in sessionStorage
+          sessionStorage.setItem("timer", timer);
+
+          // Clear the interval if the timer reaches zero
+          if (--timer < 0) {
+            clearInterval(countdownInterval);
+            timerContainer.textContent = "Time's up!";
+            // sessionStorage.removeItem("timer");
+          }
+        }, 1000);
+      };
+
+      // Helper function to calculate the remaining time
+      const calculateRemainingTime = (totalSeconds) => {
+        const storedTime = sessionStorage.getItem("timer");
+        if (storedTime) {
+          // Use the remaining time from sessionStorage
+          return parseInt(storedTime, 10);
+        } else {
+          // Start with the full duration
+          return totalSeconds;
+        }
+      };
+
+      // Start the timer when the DOM is loaded
+      document.addEventListener("DOMContentLoaded", () => {
+        const countdownDisplay = {
+          timerContainer: document.getElementById("countdown-timer"),
+          daysLeft: document.getElementById("days-left"),
+          hoursLeft: document.getElementById("hours-left"),
+          minutesLeft: document.getElementById("mins-left"),
+          secondsLeft: document.getElementById("secs-left"),
+        };
+
+        const totalSeconds = 5 * 24 * 60 * 60; // 5 days in seconds (or any duration)
+
+        // Calculate the remaining time
+        const remainingTime = calculateRemainingTime(totalSeconds);
+
+        // Start the timer with the remaining time
+        startTimer(remainingTime, countdownDisplay);
+      });
+    </script>
   </body>
 </html>
