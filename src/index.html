@@ -261,7 +261,7 @@
 
         <div
           id="countdown-timer"
-          class="flex gap-8 justify-center items-center"
+          class="countdown-timer flex gap-8 justify-center items-center"
         >
           <div
             id="days-hours-count"
@@ -270,7 +270,7 @@
             <span class="leading-none flex flex-col items-center">
               <p
                 id="days-left"
-                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+                class="days-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
               >
                 0
               </p>
@@ -291,7 +291,7 @@
             <span class="leading-none flex flex-col items-center">
               <p
                 id="hours-left"
-                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+                class="hours-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
               >
                 0
               </p>
@@ -311,7 +311,7 @@
             <span class="leading-none flex flex-col items-center">
               <p
                 id="mins-left"
-                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+                class="mins-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
               >
                 0
               </p>
@@ -332,7 +332,7 @@
             <span class="leading-none flex flex-col items-center">
               <p
                 id="secs-left"
-                class="antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+                class="secs-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
               >
                 0
               </p>
@@ -609,7 +609,223 @@
       </div>
     </section>
 
+    <section id="proofs">
+      <div class="container mx-auto px-[3%] sm:px-[5%] py-4 sm:py-8 bg-[#FFFFFF] flex flex-col items-center gap-4">
+        <h2 class="antialiased text-center w-full max-w-[800px] font-['Kumbh_Sans'] text-base md:text-xl lg:text-2xl xl:text-3xl">People are benefiting from our services! Dont believe? <br> <span class="text-[#327E11]">See proofs!</span></h2>
 
+        <div class="relative mb-20 p-3 pb-5 bg-[linear-gradient(90deg,_#D9D9D9_15%,_#FFFFFF_50%)] rounded-lg w-full max-w-[1200px] h-[150px]">
+          <div class="w-full h-full bg-[#FFFFFF] rounded-md px-4 flex gap-2 items-center justify-between">
+            <div class="w-[25%] bg-none h-20 [@media_(max-width:450px)]:w-[45%] flex flex-col items-center bg-[#D9D9D9]">
+              <span class="w-full rounded-tl-md rounded-tr-md h-1/2 flex items-center justify-center bg-[#D9D9D9] capitalize text-center p-2 text-[#000000] font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">Today</span>
+              <span class="w-full rounded-bl-md rounded-br-md h-1/2 flex items-center justify-center bg-[#FFFFFF] text-center text-[#0DB760] p-2 font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">+$5,400.70</span>
+            </div>
+            <div class="w-[25%] bg-none h-20 [@media_(max-width:450px)]:w-[45%] flex flex-col items-center bg-[#D9D9D9]">
+              <span class="w-full rounded-tl-md rounded-tr-md h-1/2 flex items-center justify-center bg-[#D9D9D9] capitalize text-center p-2 text-[#000000] font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">Yesterday</span>
+              <span class="w-full rounded-bl-md rounded-br-md h-1/2 flex items-center justify-center bg-[#FFFFFF] text-center text-[#0DB760] p-2 font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">+$500.00</span>
+            </div>
+            <div class="w-[25%] bg-none h-20 [@media_(max-width:450px)]:hidden flexflex-col items-center bg-[#D9D9D9]">
+              <span class="w-full rounded-tl-md rounded-tr-md h-1/2 flex items-center justify-center bg-[#D9D9D9] capitalize text-center p-2 text-[#000000] font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">Last 2 days</span>
+              <span class="w-full rounded-bl-md rounded-br-md h-1/2 flex items-center justify-center bg-[#FFFFFF] text-center text-[#0DB760] p-2 font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">+$500.00</span>
+            </div>
+            <div class="w-[25%] bg-none h-20 [@media_(max-width:450px)]:hidden  flex flex-col items-center bg-[#D9D9D9]">
+              <span class="w-full rounded-tl-md rounded-tr-md h-1/2 flex items-center justify-center bg-[#D9D9D9] capitalize text-center p-2 text-[#000000] font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">Last 30 days</span>
+              <span class="w-full rounded-bl-md rounded-br-md h-1/2 flex items-center justify-center bg-[#FFFFFF] text-center text-[#0DB760] p-2 font-['Kumbh_Sans'] font-medium text-xs sm:text-sm md:text-base">+$50,800.80</span>
+            </div>
+          </div>
+          
+          <div class="bg-none absolute top-1/2 left-[15%] right-[15%] flex flex-col items-center h-3/4 [box-shadow:0px_4px_18.1px_0px_#00000040]">
+            <span class="w-full rounded-tl-md rounded-tr-md h-1/2 flex items-center justify-center bg-[#D9D9D9] capitalize text-center text-[#000000] font-['Kumbh_Sans'] font-medium text-sm sm:text-base md:text-lg lg:text-xl">earnings</span>
+            <span class="w-full rounded-bl-md rounded-br-md h-1/2 flex items-center justify-center bg-[#FFFFFF] text-center text-[#0DB760] font-['Kumbh_Sans'] font-medium text-sm sm:text-base md:text-lg lg:text-xl">+$500.00</span>
+          </div>
+        </div>
+
+        <div class="relative flex flex-col items-center lg:items-start gap-4 bg-[#000000] border-2 border-solid border-['#8F98B6'] rounded-xl w-full max-w-[800px] px-[15%] pb-10 pt-5 lg:py-10 mb-20">
+          <div class="pb-10 flex justify-between items-center flex-col-reverse lg:flex-row gap-2 lg:gap-4">
+            <p class="antialiased overflow-hidden overflow-ellipsis font-['Kumbh_Sans'] text-[#FFFFFF] font-semibold text-xs hyphens-auto text-justify">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+            <span class="w-full h-full max-w-[50px] max-h-[50px] sm:max-w-[80px] sm:max-h-[80px] rounded-full">
+              <img class="w-auto h-auto max-w-full max-h-full border-2 border-solid border-[#398AE9] rounded-full aspect-square" src="./assets/images/testimonial-dp.jpg" alt="passport photo">
+            </span>
+          </div>
+          <!-- <div class="lg:self-start flex flex-col items-center gap-2">
+            <p class="antialiased overflow-hidden overflow-ellipsis font-['Kumbh_Sans'] text-[#FFFFFF] font-semibold text-xs">Vincent James</p>
+
+            <div class="star-ratings flex justify-center items-center" id="star-ratings">
+              <span class="bg-[#F59E0B] w-4 h-4 [clip-path:polygon(_42.81%_7.169%,42.81%_7.169%,43.541%_5.556%,44.571%_4.302%,45.825%_3.405%,47.229%_2.868%,48.707%_2.688%,50.186%_2.868%,51.589%_3.405%,52.843%_4.302%,53.874%_5.556%,54.605%_7.169%,61.237%_28.516%,61.237%_28.516%,61.532%_29.29%,61.911%_30.008%,62.369%_30.662%,62.898%_31.247%,63.49%_31.758%,64.137%_32.189%,64.833%_32.533%,65.569%_32.787%,66.339%_32.943%,67.134%_32.996%,88.597%_32.996%,88.597%_32.996%,90.29%_33.225%,91.75%_33.862%,92.952%_34.832%,93.875%_36.062%,94.495%_37.477%,94.789%_39.003%,94.734%_40.565%,94.306%_42.089%,93.483%_43.502%,92.242%_44.727%,74.878%_57.92%,74.878%_57.92%,74.265%_58.452%,73.73%_59.052%,73.276%_59.709%,72.907%_60.416%,72.626%_61.162%,72.434%_61.939%,72.336%_62.738%,72.333%_63.549%,72.429%_64.362%,72.626%_65.17%,79.258%_86.516%,79.258%_86.516%,79.573%_88.271%,79.445%_89.919%,78.934%_91.415%,78.101%_92.713%,77.006%_93.766%,75.709%_94.53%,74.271%_94.958%,72.753%_95.004%,71.214%_94.622%,69.716%_93.766%,52.352%_80.574%,52.352%_80.574%,51.679%_80.128%,50.968%_79.781%,50.23%_79.533%,49.473%_79.385%,48.707%_79.335%,47.941%_79.385%,47.185%_79.533%,46.446%_79.781%,45.736%_80.128%,45.062%_80.574%,27.699%_93.766%,27.699%_93.766%,26.2%_94.622%,24.662%_95.004%,23.143%_94.958%,21.706%_94.53%,20.409%_93.766%,19.314%_92.713%,18.48%_91.415%,17.969%_89.919%,17.841%_88.271%,18.156%_86.516%,24.789%_65.17%,24.789%_65.17%,24.986%_64.362%,25.082%_63.549%,25.079%_62.738%,24.98%_61.939%,24.789%_61.162%,24.507%_60.416%,24.138%_59.709%,23.685%_59.052%,23.15%_58.452%,22.536%_57.92%,5.172%_44.727%,5.172%_44.727%,3.931%_43.502%,3.108%_42.089%,2.681%_40.565%,2.626%_39.003%,2.92%_37.477%,3.539%_36.062%,4.462%_34.832%,5.665%_33.862%,7.124%_33.225%,8.817%_32.996%,30.28%_32.996%,30.28%_32.996%,31.075%_32.943%,31.845%_32.787%,32.582%_32.533%,33.277%_32.189%,33.925%_31.758%,34.517%_31.247%,35.045%_30.662%,35.503%_30.008%,35.883%_29.29%,36.177%_28.516%,42.81%_7.169%_)]"></span>
+              <span class="bg-[#F59E0B] w-4 h-4 [clip-path:polygon(_42.81%_7.169%,42.81%_7.169%,43.541%_5.556%,44.571%_4.302%,45.825%_3.405%,47.229%_2.868%,48.707%_2.688%,50.186%_2.868%,51.589%_3.405%,52.843%_4.302%,53.874%_5.556%,54.605%_7.169%,61.237%_28.516%,61.237%_28.516%,61.532%_29.29%,61.911%_30.008%,62.369%_30.662%,62.898%_31.247%,63.49%_31.758%,64.137%_32.189%,64.833%_32.533%,65.569%_32.787%,66.339%_32.943%,67.134%_32.996%,88.597%_32.996%,88.597%_32.996%,90.29%_33.225%,91.75%_33.862%,92.952%_34.832%,93.875%_36.062%,94.495%_37.477%,94.789%_39.003%,94.734%_40.565%,94.306%_42.089%,93.483%_43.502%,92.242%_44.727%,74.878%_57.92%,74.878%_57.92%,74.265%_58.452%,73.73%_59.052%,73.276%_59.709%,72.907%_60.416%,72.626%_61.162%,72.434%_61.939%,72.336%_62.738%,72.333%_63.549%,72.429%_64.362%,72.626%_65.17%,79.258%_86.516%,79.258%_86.516%,79.573%_88.271%,79.445%_89.919%,78.934%_91.415%,78.101%_92.713%,77.006%_93.766%,75.709%_94.53%,74.271%_94.958%,72.753%_95.004%,71.214%_94.622%,69.716%_93.766%,52.352%_80.574%,52.352%_80.574%,51.679%_80.128%,50.968%_79.781%,50.23%_79.533%,49.473%_79.385%,48.707%_79.335%,47.941%_79.385%,47.185%_79.533%,46.446%_79.781%,45.736%_80.128%,45.062%_80.574%,27.699%_93.766%,27.699%_93.766%,26.2%_94.622%,24.662%_95.004%,23.143%_94.958%,21.706%_94.53%,20.409%_93.766%,19.314%_92.713%,18.48%_91.415%,17.969%_89.919%,17.841%_88.271%,18.156%_86.516%,24.789%_65.17%,24.789%_65.17%,24.986%_64.362%,25.082%_63.549%,25.079%_62.738%,24.98%_61.939%,24.789%_61.162%,24.507%_60.416%,24.138%_59.709%,23.685%_59.052%,23.15%_58.452%,22.536%_57.92%,5.172%_44.727%,5.172%_44.727%,3.931%_43.502%,3.108%_42.089%,2.681%_40.565%,2.626%_39.003%,2.92%_37.477%,3.539%_36.062%,4.462%_34.832%,5.665%_33.862%,7.124%_33.225%,8.817%_32.996%,30.28%_32.996%,30.28%_32.996%,31.075%_32.943%,31.845%_32.787%,32.582%_32.533%,33.277%_32.189%,33.925%_31.758%,34.517%_31.247%,35.045%_30.662%,35.503%_30.008%,35.883%_29.29%,36.177%_28.516%,42.81%_7.169%_)]"></span>
+              <span class="bg-[#F59E0B] w-4 h-4 [clip-path:polygon(_42.81%_7.169%,42.81%_7.169%,43.541%_5.556%,44.571%_4.302%,45.825%_3.405%,47.229%_2.868%,48.707%_2.688%,50.186%_2.868%,51.589%_3.405%,52.843%_4.302%,53.874%_5.556%,54.605%_7.169%,61.237%_28.516%,61.237%_28.516%,61.532%_29.29%,61.911%_30.008%,62.369%_30.662%,62.898%_31.247%,63.49%_31.758%,64.137%_32.189%,64.833%_32.533%,65.569%_32.787%,66.339%_32.943%,67.134%_32.996%,88.597%_32.996%,88.597%_32.996%,90.29%_33.225%,91.75%_33.862%,92.952%_34.832%,93.875%_36.062%,94.495%_37.477%,94.789%_39.003%,94.734%_40.565%,94.306%_42.089%,93.483%_43.502%,92.242%_44.727%,74.878%_57.92%,74.878%_57.92%,74.265%_58.452%,73.73%_59.052%,73.276%_59.709%,72.907%_60.416%,72.626%_61.162%,72.434%_61.939%,72.336%_62.738%,72.333%_63.549%,72.429%_64.362%,72.626%_65.17%,79.258%_86.516%,79.258%_86.516%,79.573%_88.271%,79.445%_89.919%,78.934%_91.415%,78.101%_92.713%,77.006%_93.766%,75.709%_94.53%,74.271%_94.958%,72.753%_95.004%,71.214%_94.622%,69.716%_93.766%,52.352%_80.574%,52.352%_80.574%,51.679%_80.128%,50.968%_79.781%,50.23%_79.533%,49.473%_79.385%,48.707%_79.335%,47.941%_79.385%,47.185%_79.533%,46.446%_79.781%,45.736%_80.128%,45.062%_80.574%,27.699%_93.766%,27.699%_93.766%,26.2%_94.622%,24.662%_95.004%,23.143%_94.958%,21.706%_94.53%,20.409%_93.766%,19.314%_92.713%,18.48%_91.415%,17.969%_89.919%,17.841%_88.271%,18.156%_86.516%,24.789%_65.17%,24.789%_65.17%,24.986%_64.362%,25.082%_63.549%,25.079%_62.738%,24.98%_61.939%,24.789%_61.162%,24.507%_60.416%,24.138%_59.709%,23.685%_59.052%,23.15%_58.452%,22.536%_57.92%,5.172%_44.727%,5.172%_44.727%,3.931%_43.502%,3.108%_42.089%,2.681%_40.565%,2.626%_39.003%,2.92%_37.477%,3.539%_36.062%,4.462%_34.832%,5.665%_33.862%,7.124%_33.225%,8.817%_32.996%,30.28%_32.996%,30.28%_32.996%,31.075%_32.943%,31.845%_32.787%,32.582%_32.533%,33.277%_32.189%,33.925%_31.758%,34.517%_31.247%,35.045%_30.662%,35.503%_30.008%,35.883%_29.29%,36.177%_28.516%,42.81%_7.169%_)]"></span>
+              <span class="bg-[#F59E0B] w-4 h-4 [clip-path:polygon(_42.81%_7.169%,42.81%_7.169%,43.541%_5.556%,44.571%_4.302%,45.825%_3.405%,47.229%_2.868%,48.707%_2.688%,50.186%_2.868%,51.589%_3.405%,52.843%_4.302%,53.874%_5.556%,54.605%_7.169%,61.237%_28.516%,61.237%_28.516%,61.532%_29.29%,61.911%_30.008%,62.369%_30.662%,62.898%_31.247%,63.49%_31.758%,64.137%_32.189%,64.833%_32.533%,65.569%_32.787%,66.339%_32.943%,67.134%_32.996%,88.597%_32.996%,88.597%_32.996%,90.29%_33.225%,91.75%_33.862%,92.952%_34.832%,93.875%_36.062%,94.495%_37.477%,94.789%_39.003%,94.734%_40.565%,94.306%_42.089%,93.483%_43.502%,92.242%_44.727%,74.878%_57.92%,74.878%_57.92%,74.265%_58.452%,73.73%_59.052%,73.276%_59.709%,72.907%_60.416%,72.626%_61.162%,72.434%_61.939%,72.336%_62.738%,72.333%_63.549%,72.429%_64.362%,72.626%_65.17%,79.258%_86.516%,79.258%_86.516%,79.573%_88.271%,79.445%_89.919%,78.934%_91.415%,78.101%_92.713%,77.006%_93.766%,75.709%_94.53%,74.271%_94.958%,72.753%_95.004%,71.214%_94.622%,69.716%_93.766%,52.352%_80.574%,52.352%_80.574%,51.679%_80.128%,50.968%_79.781%,50.23%_79.533%,49.473%_79.385%,48.707%_79.335%,47.941%_79.385%,47.185%_79.533%,46.446%_79.781%,45.736%_80.128%,45.062%_80.574%,27.699%_93.766%,27.699%_93.766%,26.2%_94.622%,24.662%_95.004%,23.143%_94.958%,21.706%_94.53%,20.409%_93.766%,19.314%_92.713%,18.48%_91.415%,17.969%_89.919%,17.841%_88.271%,18.156%_86.516%,24.789%_65.17%,24.789%_65.17%,24.986%_64.362%,25.082%_63.549%,25.079%_62.738%,24.98%_61.939%,24.789%_61.162%,24.507%_60.416%,24.138%_59.709%,23.685%_59.052%,23.15%_58.452%,22.536%_57.92%,5.172%_44.727%,5.172%_44.727%,3.931%_43.502%,3.108%_42.089%,2.681%_40.565%,2.626%_39.003%,2.92%_37.477%,3.539%_36.062%,4.462%_34.832%,5.665%_33.862%,7.124%_33.225%,8.817%_32.996%,30.28%_32.996%,30.28%_32.996%,31.075%_32.943%,31.845%_32.787%,32.582%_32.533%,33.277%_32.189%,33.925%_31.758%,34.517%_31.247%,35.045%_30.662%,35.503%_30.008%,35.883%_29.29%,36.177%_28.516%,42.81%_7.169%_)]"></span>
+              <span class="bg-[#F59E0B] w-4 h-4 [clip-path:polygon(_42.81%_7.169%,42.81%_7.169%,43.541%_5.556%,44.571%_4.302%,45.825%_3.405%,47.229%_2.868%,48.707%_2.688%,50.186%_2.868%,51.589%_3.405%,52.843%_4.302%,53.874%_5.556%,54.605%_7.169%,61.237%_28.516%,61.237%_28.516%,61.532%_29.29%,61.911%_30.008%,62.369%_30.662%,62.898%_31.247%,63.49%_31.758%,64.137%_32.189%,64.833%_32.533%,65.569%_32.787%,66.339%_32.943%,67.134%_32.996%,88.597%_32.996%,88.597%_32.996%,90.29%_33.225%,91.75%_33.862%,92.952%_34.832%,93.875%_36.062%,94.495%_37.477%,94.789%_39.003%,94.734%_40.565%,94.306%_42.089%,93.483%_43.502%,92.242%_44.727%,74.878%_57.92%,74.878%_57.92%,74.265%_58.452%,73.73%_59.052%,73.276%_59.709%,72.907%_60.416%,72.626%_61.162%,72.434%_61.939%,72.336%_62.738%,72.333%_63.549%,72.429%_64.362%,72.626%_65.17%,79.258%_86.516%,79.258%_86.516%,79.573%_88.271%,79.445%_89.919%,78.934%_91.415%,78.101%_92.713%,77.006%_93.766%,75.709%_94.53%,74.271%_94.958%,72.753%_95.004%,71.214%_94.622%,69.716%_93.766%,52.352%_80.574%,52.352%_80.574%,51.679%_80.128%,50.968%_79.781%,50.23%_79.533%,49.473%_79.385%,48.707%_79.335%,47.941%_79.385%,47.185%_79.533%,46.446%_79.781%,45.736%_80.128%,45.062%_80.574%,27.699%_93.766%,27.699%_93.766%,26.2%_94.622%,24.662%_95.004%,23.143%_94.958%,21.706%_94.53%,20.409%_93.766%,19.314%_92.713%,18.48%_91.415%,17.969%_89.919%,17.841%_88.271%,18.156%_86.516%,24.789%_65.17%,24.789%_65.17%,24.986%_64.362%,25.082%_63.549%,25.079%_62.738%,24.98%_61.939%,24.789%_61.162%,24.507%_60.416%,24.138%_59.709%,23.685%_59.052%,23.15%_58.452%,22.536%_57.92%,5.172%_44.727%,5.172%_44.727%,3.931%_43.502%,3.108%_42.089%,2.681%_40.565%,2.626%_39.003%,2.92%_37.477%,3.539%_36.062%,4.462%_34.832%,5.665%_33.862%,7.124%_33.225%,8.817%_32.996%,30.28%_32.996%,30.28%_32.996%,31.075%_32.943%,31.845%_32.787%,32.582%_32.533%,33.277%_32.189%,33.925%_31.758%,34.517%_31.247%,35.045%_30.662%,35.503%_30.008%,35.883%_29.29%,36.177%_28.516%,42.81%_7.169%_)]"></span>
+            </div>
+          </div> -->
+
+          <div class="bg-none absolute -translate-y-1/4 -bottom-1/4 left-[15%] right-[15%] flex flex-col items-center h-3/4 max-h-[100px] [box-shadow:0px_4px_18.1px_0px_#00000040]">
+            <span class="w-full rounded-tl-md rounded-tr-md h-1/2 flex items-center justify-center bg-[#D9D9D9] capitalize text-center text-[#000000] font-['Kumbh_Sans'] font-medium text-sm sm:text-base md:text-lg lg:text-xl">earnings</span>
+            <span class="w-full rounded-bl-md rounded-br-md h-1/2 flex items-center justify-center bg-[#FFFFFF] text-center text-[#0DB760] font-['Kumbh_Sans'] font-medium text-sm sm:text-base md:text-lg lg:text-xl">+$705.60</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-[5px] items-center w-full">
+          <h1
+            class="text-[#000000] text-['Kumbh_Sans'] text-xs font-semibold text-center"
+          >
+            Get Instant Access Now!!!
+          </h1>
+          <h2
+            class="line-through text-[#000000] text-['Kumbh_Sans'] text-sm md:text-base font-semibold text-center"
+          >
+            Regular Price: $17
+          </h2>
+          <div
+            class="bg-[linear-gradient(90deg,_#EBC43A_13.46%,_#597EFF_100%)] w-full max-w-[400px] rounded-xl"
+          >
+            <div class="flex flex-col items-center gap-2 p-2 w-full">
+              <span class="flex gap-1 items-center justify-center w-full">
+                <img
+                  class="w-auto max-w-6 h-auto max-h-6"
+                  src="./assets/images/cart-icon.svg"
+                  alt="cart-icon"
+                />
+                <p
+                  class="antialiased capitalize font-['Kumbh_Sans'] text-sm md:text-base font-black text-[#FFFFFF]"
+                >
+                  Buy Now
+                </p>
+              </span>
+              <a
+                href="./error404.html"
+                class="underline antialiased capitalize font-['inter'] text-xs md:text-sm font-medium text-[#FFFFFF]"
+                >Get Started Before It Expires</a
+              >
+            </div>
+          </div>
+          <div class="flex gap-2 items-center justify-center h-full w-full">
+            <span class="w-full max-w-[200px] h-full max-h-[46.71px]">
+              <img
+                class="w-auto h-auto max-w-full max-h-full"
+                src="./assets/images/pay-gateways.svg"
+                alt="payment-gateways"
+              />
+            </span>
+            <span class="w-full max-w-[45.66px] h-full max-h-[46.71px]">
+              <img
+                class="w-auto h-auto max-w-full max-h-full"
+                src="./assets/images/guaranteed.svg"
+                alt="100%-guaranteed"
+              />
+            </span>
+            <span class="flex gap-1 items-center justify-center">
+              <p
+                class="text-[#000000] antialiased font-black text-base md:text-xl font-['inter']"
+              >
+                365
+              </p>
+              <p
+                class="capitalize antialiased leading-none text-[#000000] font-light text-center text-xs font-['Kumbh_Sans']"
+              >
+                Money Back <br />
+                Guaranteed
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div
+          id="countdown-timer"
+          class=" countdown-timer flex gap-8 justify-center items-center"
+        >
+          <div
+            id="days-hours-count"
+            class="flex gap-2 justify-center items-center"
+          >
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="days-left"
+                class="days-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalize font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Days
+              </p>
+            </span>
+
+            <p
+              class="capitalize font-['Inter'] font-semibold text-xl antialiased text-[#000000]"
+            >
+              :
+            </p>
+
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="hours-left"
+                class="hours-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalizee font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Hours
+              </p>
+            </span>
+          </div>
+
+          <div
+            id="mins-secs-count"
+            class="flex gap-2 justify-center items-center"
+          >
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="mins-left"
+                class="mins-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalize font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Mins
+              </p>
+            </span>
+
+            <p
+              class="capitalize font-['Inter'] font-semibold text-xl antialiased text-[#000000]"
+            >
+              :
+            </p>
+
+            <span class="leading-none flex flex-col items-center">
+              <p
+                id="secs-left"
+                class="secs-left antialiased text-[#B58900] text-['inter'] font-semibold text-base p-2 md:text-xl"
+              >
+                0
+              </p>
+              <br />
+              <p
+                class="capitalize font-['Inter'] font-normal text-sm antialiased text-[#000000]"
+              >
+                Secs
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 sm:py-20 before:bg-[url('./assets/images/probs-sols-bg.jpg')] relative before:absolute before:content-[''] bg-[#F7F7F7] bg-opacity-85 before:bg-cover before:bg-center before:bg-no-repeat before:-z-10 before:bg-opacity-100 before:inset-0">
+      <div class="container mx-auto max-w-[1000px] flex flex-col gap-4">
+        <h4 class="px-[5%] antialiased text-center text-[#3A8BEB] font-bold text-xl md:text-3xl">4 Problems and Solutions</h4>
+        <hr class="mx-[2%] border-t-2 border-dashed border-black">
+        <p class="px-[5%] antialiased text-center text-[#000000] font-normal text-base">Some of these video editors cost hundreds of dollars and can be difficult to understand for newbies!</p>
+
+      </div>
+    </section>
 
     <!-- <script src="./assets/index.js"></script> -->
     <script>
@@ -636,12 +852,20 @@
           const formattedMinutes = String(minutes).padStart(2, "0");
           const formattedSeconds = String(seconds).padStart(2, "0");
 
-          console.log(formattedHours);
+          // console.log(daysLeft);
           // Update the display with the correct format
-          daysLeft.textContent = formattedDays;
-          hoursLeft.textContent = formattedHours;
-          minutesLeft.textContent = formattedMinutes;
-          secondsLeft.textContent = formattedSeconds;
+          Array.from(daysLeft).forEach(element => {
+            element.textContent = formattedDays;
+          }); 
+          Array.from(hoursLeft).forEach(element => {
+            element.textContent = formattedHours;
+          }); 
+          Array.from(minutesLeft).forEach(element => {
+            element.textContent = formattedMinutes;
+          }); 
+          Array.from(secondsLeft).forEach(element => {
+            element.textContent = formattedSeconds;
+          }); 
 
           // Store the remaining time in sessionStorage
           sessionStorage.setItem("timer", timer);
@@ -670,11 +894,11 @@
       // Start the timer when the DOM is loaded
       document.addEventListener("DOMContentLoaded", () => {
         const countdownDisplay = {
-          timerContainer: document.getElementById("countdown-timer"),
-          daysLeft: document.getElementById("days-left"),
-          hoursLeft: document.getElementById("hours-left"),
-          minutesLeft: document.getElementById("mins-left"),
-          secondsLeft: document.getElementById("secs-left"),
+          timerContainer: document.querySelectorAll(".countdown-timer"),
+          daysLeft: document.querySelectorAll(".days-left"),
+          hoursLeft: document.querySelectorAll(".hours-left"),
+          minutesLeft: document.querySelectorAll(".mins-left"),
+          secondsLeft: document.querySelectorAll(".secs-left"),
         };
 
         const totalSeconds = 5 * 24 * 60 * 60; // 5 days in seconds (or any duration)
