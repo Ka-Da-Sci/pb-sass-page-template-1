@@ -41,3 +41,4 @@ const emailValidation = (emailId, errorMessageId) => {
     errorMessage.style.display = "none";
   };
 };
+
