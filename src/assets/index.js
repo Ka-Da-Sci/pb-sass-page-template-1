@@ -29,7 +29,6 @@ const emailValidation = (emailId, errorMessageId) => {
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (!emailPattern.test(emailInput.value)) {
-    event.preventDefault();
     emailInput.classList.add("error");
     errorMessage.style.display = "inline";
   } else {
@@ -42,3 +41,9 @@ const emailValidation = (emailId, errorMessageId) => {
   };
 };
 
+  const updateCopyRightYear = () => {
+    document.getElementById("copyright-year").textContent =
+      new Date().getFullYear();
+  };
+
+document.addEventListener("DOMContentLoaded", updateCopyRightYear());
